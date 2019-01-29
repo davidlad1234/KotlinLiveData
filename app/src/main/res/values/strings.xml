@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Live Data Recycler</string>
+    <string name="title_album_detail">Photo Detail</string>
+    <string name="data_error">Error fetching data from flickr...</string>
+    <string name="tracks">Tracks</string>
+    <string name="summary">Summary</string>
+    <string name="link">Link</string>
+    <string name="artist">Artist</string>
+    <string name="album">Album</string>
+    <string name="server_error">No response from server!</string>
+    <string name="title">Title</string>
+    <string name="author">Author</string>
+    <string name="description">Description</string>
+    <string name="publish_date">Published Date</string>
+    <string name="tags">Tags</string>
+    <string name="date_taken">Date Taken</string>
+    <string name="author_id">Author Id</string>
+</resources>

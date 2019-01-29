@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+
+        android:id="@+id/album_detail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/bottom_margin"
+        tools:context="com.hsbc.flickr.fragments.PhotoDetailFragment">
+
+        <ImageView
+            android:id="@+id/id_image"
+
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/image_size_large"
+            android:layout_gravity="center_horizontal"
+            android:padding="@dimen/text_margin" />
+
+
+
+        <TextView
+            android:id="@+id/title"
+            style="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/text_margin"
+            android:text="@string/title"
+            android:textStyle="bold"
+            android:textIsSelectable="true" />
+
+        <TextView
+            android:id="@+id/author_id_name"
+            style="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/author_id"
+            android:textStyle="bold"
+            android:padding="@dimen/text_margin"
+            android:textIsSelectable="true" />
+
+
+
+        <TextView
+            android:id="@+id/author_id"
+            style="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:padding="@dimen/text_margin"
+            android:textIsSelectable="true" />
+
+
+        <TextView
+            android:id="@+id/author_name"
+            style="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/text_margin"
+            android:text="@string/author"
+            android:textStyle="bold"
+            android:textIsSelectable="true" />
+
+        <TextView
+            android:id="@+id/author"
+
+            style="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/text_margin"
+            android:textIsSelectable="true" />
+
+
+        <TextView
+            android:id="@+id/url_name"
+            style="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/text_margin"
+            android:text="@string/link"
+            android:textStyle="bold"
+            android:textIsSelectable="true" />
+
+        <TextView
+            android:id="@+id/url"
+
+            style="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/text_margin"
+            android:textIsSelectable="true" />
+
+        <!--"title": "Dark Lady.",-->
+        <!--2018-09-30 23:15:58.859 5352-5405/com.hsbc.flickr D/OkHttp: 			"link": "http:\/\/www.flickr.com\/photos\/kurenaisutcliff\/43205731780\/",-->
+        <!--2018-09-30 23:15:58.859 5352-5405/com.hsbc.flickr D/OkHttp: 			"media": {"m":"http:\/\/farm2.staticflickr.com\/1941\/43205731780_de787cedb3_m.jpg"},-->
+        <!--2018-09-30 23:15:58.859 5352-5405/com.hsbc.flickr D/OkHttp: 			"date_taken": "2018-09-30T14:17:29-08:00",-->
+        <!--2018-09-30 23:15:58.859 5352-5405/com.hsbc.flickr D/OkHttp: 			"description": " <p><a href=\"http:\/\/www.flickr.com\/people\/kurenaisutcliff\/\">KurenaiSutcliff<\/a> posted a photo:<\/p> <p><a href=\"http:\/\/www.flickr.com\/photos\/kurenaisutcliff\/43205731780\/\" title=\"Dark Lady.\"><img src=\"http:\/\/farm2.staticflickr.com\/1941\/43205731780_de787cedb3_m.jpg\" width=\"135\" height=\"240\" alt=\"Dark Lady.\" \/><\/a><\/p> <p>Me as model.<br \/> <br \/> Ph. Andrea A P H Puzzuoli<br \/> Editing by me.<br \/> <br \/> Outfit, accessories, wig-styling and make-up by me.<\/p>",-->
+        <!--2018-09-30 23:15:58.859 5352-5405/com.hsbc.flickr D/OkHttp: 			"published": "2018-09-30T21:24:32Z",-->
+        <!--2018-09-30 23:15:58.859 5352-5405/com.hsbc.flickr D/OkHttp: 			"author": "nobody@flickr.com (\"KurenaiSutcliff\")",-->
+        <!--2018-09-30 23:15:58.859 5352-5405/com.hsbc.flickr D/OkHttp: 			"author_id": "106314058@N06",-->
+        <!--2018-09-30 23:15:58.859 5352-5405/com.hsbc.flickr D/OkHttp: 			"tags": "black goth gothic dark death blackhair corset makeup gothgirl altgoth blacklips alternative al altgirl girl gothicgirl alt wig loli darkgirl emo punk gothicoutfit outfit blackoutfit cross stocking blackwig accessories darklady lace lacedress dress blackdress wild nature pic photos photo picture model photomodel original"-->
+        <TextView
+            android:id="@+id/description_name"
+            style="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/text_margin"
+            android:text="@string/description"
+            android:textStyle="bold"
+            android:textIsSelectable="true" />
+
+        <TextView
+            android:id="@+id/description"
+
+            style="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/text_margin"
+            android:textIsSelectable="true" />
+
+        <TextView
+            android:id="@+id/publish_date_name"
+            style="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/text_margin"
+            android:text="@string/publish_date"
+            android:textStyle="bold"
+            android:textIsSelectable="true" />
+
+        <TextView
+
+            android:id="@+id/publish_date"
+            style="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/text_margin"
+            android:textIsSelectable="true" />
+
+
+
+        <TextView
+            android:id="@+id/date_taken_name"
+            style="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/text_margin"
+            android:text="@string/date_taken"
+            android:textStyle="bold"
+            android:textIsSelectable="true" />
+
+        <TextView
+
+            android:id="@+id/date_taken"
+            style="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/text_margin"
+            android:textIsSelectable="true" />
+
+
+        <TextView
+            android:id="@+id/tag_name"
+            style="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/text_margin"
+            android:text="@string/tags"
+            android:textStyle="bold"
+            android:textIsSelectable="true" />
+
+        <TextView
+
+            android:id="@+id/tags"
+            style="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/text_margin"
+            android:textIsSelectable="true" />
+
+
+    </LinearLayout>
+</ScrollView>
